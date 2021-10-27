@@ -1,2 +1,2 @@
-nnoremap jk <esc>
-nnoremap <space> zz
+inoremap jk <esc>
+noremap <space> zz
