@@ -19,3 +19,10 @@ ln -sf "$HOME/dotfiles/zsh/aliases" "$HOME/.config/zsh/aliases"
 
 rm -rf "$HOME/.config/zsh/external"
 ln -sf "$HOME/dotfiles/zsh/external" "$HOME/.config/zsh"
+
+########
+# tmux #
+########
+
+mkdir -p "$HOME/.config/tmux"
+ln -sf "$HOME/dotfiles/tmux/tmux.conf" "$HOME/.config/tmux/tmux.conf"
